@@ -14,6 +14,8 @@ Je ne suis pas un avocat.
 
 # Libre software legal basics for developpers
 
+/!\ English translation is in progress
+
 Those files are used during my lectures. It is an 8 eight hours lecture (not in a row !) for university students. It is used as a the main guideline.
 
 Disclaimer : Guitar tabs can not (and will never) represent perfectly a famous jazz track. It is the same here. Thos files are not representtaive of the whole peadogicial and didactical process used during my lectures !
