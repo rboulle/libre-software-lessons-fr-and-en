@@ -4,7 +4,7 @@ For english, scroll down...
 
 Cette PréAO traite essentiellement des licences libres. C'est mon support de cours "fil rouge" pour un module de huit heures pour des étudiantes et étudiants d'université.
 
-Attention : de la même façon que des tablatures de guitare ne peuvent retranscrire parfaitement un morceau de jazz, ces fichiers ne peuvent restranscrire aussi parfaitement l'ensemble du dispoitif pédagogique et didactique utilisé !
+Attention : de la même façon que des tablatures de guitare ne peuvent retranscrire parfaitement un morceau de jazz, ces fichiers ne peuvent retranscrire aussi parfaitement l'ensemble du dispositif pédagogique et didactique utilisé !
 
 Il est très loin d'être parfait. N'hésitez pas à soumettre une issue. pull requests bienvenus :)
 
