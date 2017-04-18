@@ -119,6 +119,13 @@
 \end{frame}
 \setbeamertemplate{background canvas}{}
 
+\setbeamertemplate{background canvas}{\centering\includegraphics
+   [height=\paperheight]{images/gnu-linux_wallpaper_tb_david_revoy.png}}
+\begin{frame}[plain]%{LT}
+%  
+\note{GNU/Linux}
+\end{frame}
+\setbeamertemplate{background canvas}{}
 
 %\subsection{Communautés}
 
@@ -185,8 +192,7 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
   \begin{itemize}
   \item Droits patrimoniaux
     \begin{itemize}
-    \item Droit de reproduction
-    \item Droit de représentation
+    \item Droit de reproduction, de représentation
     \item Droit de suite (pas pour les logiciels)
     \item Droits voisins
     \end{itemize}
@@ -204,6 +210,8 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
   \begin{alertblock}{Gauche d'auteur}
     Le libre est adossé au droit d'auteur.
   \end{alertblock}
+  
+  Les idées sont de libre parcours.
 \end{frame}
 
 
@@ -468,7 +476,7 @@ Trois cas :
 
   \begin{itemize}
   \item oeuvre utilisant... : Si "oeuvre considérée comme utilisant simplement la bibliothèque", pas
-    d'obligations (sauf liaison statique)
+    d'obligations (sauf liaison statique, voir licence)
   \item oeuvres combinées.... avec la bibliothèque
   \item ajout de fonctionnalités
   \end{itemize}
@@ -524,6 +532,10 @@ Les licences diffusives sont par nature incompatibles entre elles...
 
 
 \begin{frame}{La compatibilité en un tableau}
+
+Votre code = du code + A + B. Pouvez-vous le distribuer ?
+
+
 \scalebox{0.7}{
   \begin{tabularx}{14cm}{|X|X|X|X|}
     \hline
@@ -610,15 +622,17 @@ Selon \textit{Black Duck Software} :
 \item 98\% des entreprises ne le sauraient pas...
 
 \end{itemize}
-
+\begin{minipage}[c]{0.4\linewidth}
+\includegraphics[width=0.9\textwidth]{images/The_Scream.jpg}\end{minipage}
+\begin{minipage}[c]{0.5\linewidth}
 Marketing de la \textit{peur} mais :
 
 Double contrainte :
 \begin{itemize}
 \item juridique : compatibilité des licences (privatives, libres, libres entre elles
-\item technique : failles de sécurités de n'importe quel composant externes (HeartBleed, ...)
+\item technique : failles de sécurités de n'importe quel composant externes (HeartBleed dans OpenSSL, ...)
 \end{itemize}
-
+\end{minipage}
 Finalement, une chance que les composants impactés soient des logiciels libres...
   
 \end{frame}
@@ -651,14 +665,18 @@ Essentiellement trois solutions...
 %%%%%%%%%%%%
 
 \begin{frame}{FOSSology}
+\begin{block}{FOSSology}
+
 \textit{License compliance software system and toolkit.}
+\end{block}
 
-\textit{As a toolkit you can run license, copyright and export control scans from the command line.}
+\begin{itemize}
+\item \textit{As a toolkit you can run license, copyright and export control scans from the command line.}
 
-\textit{As a system, a database and web ui are provided to give you a compliance workflow. License, copyright and export scanners are tools available to help with your compliance activities.}
+\item textit{As a system, a database and web ui are provided to give you a compliance workflow. License, copyright and export scanners are tools available to help with your compliance activities.}
+\end{itemize}
 
 \url{https://github.com/fossology/fossology}
-
 \end{frame}
 
 \setbeamertemplate{background canvas}{\centering\includegraphics
@@ -745,13 +763,21 @@ Webographie :
   
 \end{frame}
 
-\begin{frame}{Crédits}
+\begin{frame}{Crédits 1/2}
   \begin{itemize}
   \item Photo de Richard Stallman par Lionel Allorge, licence GFDL1.3+, CC-BY-SA+, LAL+,  \url{http://photos.april.org/picture.php?/4413/category/159}
   \item Photo de Linus Torvalds de Wikimédia Commons, licence CC-BY-SA 3.0 capture d'une vidéo de Linux Foundation Kernel Summit 2008 \url{https://upload.wikimedia.org/wikipedia/commons/3/31/Linus_Torvalds_lks08.jpg}
+  \item GNU/Linux, David Revoy, CC-BY \url{http://deevad.deviantart.com/art/GNU-Linux-Portrait-645635708}
+   \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Crédits 2/2}
+  \begin{itemize}
 \item SMOG grade : Zavras, Alexios (2016) ‘Twenty-five years of school? Analysis of Free and Open Source software license texts’, International Free and Open Source Software Law Review, 8(1),
 pp 29 – 44 DOI: 10.5033/ifosslr.v8i1.111  
 \item Logo GPLv3, licence GFDL : \url{http://www.gnu.org/graphics/license-logos.html}
+\item The Scream by Edward Munch, Public domain : \url{https://commons.wikimedia.org/wiki/File:The_Scream.jpg}
 
   \end{itemize}
 \end{frame}
