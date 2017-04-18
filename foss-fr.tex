@@ -38,7 +38,7 @@
 \makeatother
 
 
-\title[]{Gestion des licences dans un projet informatique} 
+\title[]{Gestion des licences d'un projet informatique} 
 \author{Rémi Boulle  \href{mailto:mail@remiboulle.fr}{mail@remiboulle.fr}}
 \date{}       
 \institute{}        
@@ -84,10 +84,11 @@
   \end{itemize}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contexte et historique
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Contexte}
-
-%\subsection{Historique}
 
 \begin{frame}{Historique}
   \begin{itemize}
@@ -127,8 +128,6 @@
 \end{frame}
 \setbeamertemplate{background canvas}{}
 
-%\subsection{Communautés}
-
 \begin{frame}{Communautés et structures du libre}
 
   \begin{block}{International}
@@ -155,8 +154,6 @@
     etc...
   \end{block}
 \end{frame}
-
-%\subsection{Libre vs open-source}
 
 
 \begin{frame}{Libre et/ou Opensource}
@@ -214,6 +211,9 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
   Les idées sont de libre parcours.
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Logiciel privatif
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Privatif}
 
@@ -241,8 +241,12 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
 
 \end{frame}
 
-\section{Libre}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Logiciel libre : 4 libertés
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Libre}
 
 \begin{frame}{logiciels libres}
 
@@ -261,7 +265,6 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
   
 \end{frame}
 
-%\subsection{4 libertés}
 
 
 \begin{frame}{liberté 0 : liberté d'utilisation}
@@ -356,9 +359,13 @@ Mise en commun sur :
 \end{frame}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classification
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \section{Classification}
 
-%\subsection{Diffusives}
 
 \begin{frame}{Licence diffusive}
 
@@ -379,7 +386,6 @@ Exemples : GNU GPL, CeCILL(A)....
 Stratégiquement \textbf{expansionnistes}.
 \end{frame}
 
-%\subsection{Persistantes}
 
 \begin{frame}{Licence persistante}
 
@@ -399,10 +405,8 @@ Stratégiquement \textbf{défensives}.
 
 \end{frame}
 
-%\subsection{Évanescentes}
 
 \begin{frame}{Licence évanescente}
-
   \begin{block}{Principe général}
     Liberté totale !
   \end{block}
@@ -418,13 +422,13 @@ Autre terme moins rigoureux : licences permissives
 Exemples : BSD (BSD 4 clauses, BSD 3, BSD 2), MIT, Apache, CeCILL-B... 
 
 Stratégiquement \textbf{prosélytes}.
-
 \end{frame}
+
 
 \section{Périmètre}
 
-\begin{frame}{Comment s'appliquent les licences libres ?}
 
+\begin{frame}{Comment s'appliquent les licences libres ?}
   \begin{alertblock}{Problématique}
     Comment se propagent les obligations de la licence pour une contribution donnée ? 
   \end{alertblock}
@@ -444,7 +448,6 @@ Même une diffusive n'a pas une propagation sans limites !
 
 
 \begin{frame}{Limites des diffusives}
-
 La diffusivité n'est pas du tout absolue.
 
   \begin{block}{But général des diffusives}
@@ -466,14 +469,9 @@ Oeuvre dérivée dès qu'il n'y pas substituabilité (selon si le couplage avec 
   \end{alertblock}
 \end{frame}
 
-%\begin{frame}{Limites des diffusives II}
-%  Il y a oeuvre dérivée et donc diffusivité dès qu'il n'y a pas substituabilité.
-%\end{frame}
 
 \begin{frame}{Limites des persistantes}
-
 Trois cas :
-
   \begin{itemize}
   \item oeuvre utilisant... : Si "oeuvre considérée comme utilisant simplement la bibliothèque", pas
     d'obligations (sauf liaison statique, voir licence)
@@ -484,12 +482,12 @@ Trois cas :
 Préserver le périmètre fonctionnel du logiciel couvert pour éviter subversion... (cf MPL)
 
 Périmètre défini de façon abstraite et fonctionnelle en termes de modules
-
  \begin{alertblock}{Périmètre}
     Le périmètre de la licence est l'interface.
   \end{alertblock}
   
 \end{frame}
+
 
 \begin{frame}{Utilisation des évanescentes}
 
@@ -505,7 +503,13 @@ Périmètre défini de façon abstraite et fonctionnelle en termes de modules
 
 \end{frame}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compatibilité
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Compatibilité}
+
 
 \begin{frame}{Quelles compatibilités entre licences libres ?}
 
@@ -554,6 +558,7 @@ Evanescente & \textbf{Possible}. P peut être distribué sous la licence B  & \t
 
 \section{TP3 et TP4}
 
+
 \begin{frame}{Lecture et analyse de licences}
 
 Indispensable pour tout développeur au risque de râter sa vie.
@@ -566,8 +571,6 @@ Selon Alexios Zavras, le SMOG grade moyen est de 17. Certaines licences dépasse
 
 
 \begin{frame}{GPLv3}
-
-
   Par groupe de 3, dans le document fourni, lire et commenter la GPLv3 (durée 1h) :
   \begin{itemize}
     \item reformuler clairement sans paraphraser
@@ -580,6 +583,7 @@ Selon Alexios Zavras, le SMOG grade moyen est de 17. Certaines licences dépasse
 \end{center}
 \end{frame}
 
+
 \begin{frame}{3 questions}
  Par groupe de 3, répondez aux 3 questions tirées au sort
  \begin{itemize}
@@ -587,13 +591,15 @@ Selon Alexios Zavras, le SMOG grade moyen est de 17. Certaines licences dépasse
    questions de la promo comprises
  \item Notation en 7, 10, 12, 14, 18, 20.
  \end{itemize}
-
 \end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Bonnes pratiques et audits
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Bonnes pratiques et audits}
+
 
 \begin{frame}{Bonnes pratiques}
   \begin{itemize}
@@ -602,15 +608,12 @@ Selon Alexios Zavras, le SMOG grade moyen est de 17. Certaines licences dépasse
   \item Se soucier dès le début du projet et tout au long de celui-ci de la faisabilité juridique !
   \item Pas uniquement des juristes... Besoin de personnes avec connaissances techniques (profil rare)
   \end{itemize}
-
 Sinon :
-
 \begin{itemize}
 \item réécrire (en moins bien) des modules en urgence
 \item retards dans la livraison
 \item violation de licence (procédures, image de la société, impact sur les clients...)
 \end{itemize}
-  
 \end{frame}
 
 
