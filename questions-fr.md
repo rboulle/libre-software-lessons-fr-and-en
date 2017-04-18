@@ -1,5 +1,8 @@
-Questions de recherche
-3 questions par groupe tiées au hasard.
+#Questions de recherche
+
+1 pack de 3 questions pour chaque groupe. Choix au hasard.
+
+
 
 ## Paquet 1
 
