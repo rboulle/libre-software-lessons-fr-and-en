@@ -95,10 +95,11 @@
   \item projet GNU en 1984 par Richard Stallman (RMS)
   \item Première GPL : 25 février 1989
   \item la technique est un moyen pour atteindre un but social
-  \item 1991 : noyau pour Minix (\textit{just a hobby, nothing serious} par Linus Torvalds (LT)
+  \item 1991 : Système d'exploitation Minix (\textit{« just a hobby, won’t be big and
+professional like gnu »}) par Linus Torvalds.
   \item 1995 : création de Red Hat (au Nasdaq en 1999), licence Apache
   \item 1998 : libération de Netscape
-  \item 1998 : fracture entre « libre » et de « open-source » (OSI) autour du \textit{copyleft} par Éric Raymond (ER)
+  \item 1998 : fracture entre « libre » et « open-source » (OSI) autour du \textit{copyleft} par Éric Raymond.
   \end{itemize}
 \end{frame}
 
@@ -175,7 +176,7 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
 
   \begin{itemize}
   \item \textbf{Logiciels privatifs} et non propriétaires (tous le sont !)
-  \item \textbf{Copyleft} : \textit{droit laissé}, obligation de laisser le logiciel sous le même régime juridique sous lequel il a été placé.
+  \item \textbf{Copyleft} : \textit{droit laissé}, obligation de garantir que les libertés offertes par la licence soient préservées lors de la redistribution.
   \item \textbf{Copyright} : pas de valeur juridique particulière en France mais permet d'identifier les auteurs...
   \item Oeuvre : création originale, pas vraiment de sens dans le monde numérique
   \item Originalité : expression juridique de la créativité de l'auteur, empreinte de sa personnalité. \textbf{Création intellectuelle} dans le monde numérique
@@ -222,7 +223,7 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
   Principe général : réserver l'intégralité des droits au titulaire. Droits patrimoniaux organisés pour assurer un monopole d'exploitation économique.
 
   \begin{alertblock}{Définition : logiciel privatif}
-    Logiciel sous licence privative, c'est-à-dire n'offrant pas au moins l'une des quatre libertés des licences libres.    
+    Logiciel sous licence privative, c'est-à-dire n'offrant pas au moins une des quatre libertés des licences libres.    
   \end{alertblock}
 
 \pause
@@ -255,12 +256,12 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
   \end{alertblock}
   Elles ne divergent principalement que sur les modalités de redistribution :
   \begin{itemize}
-  \item redistribution sous n'importe quelle licence : liberté totale
-  \item redistribution sous les mêmes termes : empêcher de tirer bénéfice du logiciel sans reverser en retour sa propre oeuvre dérivée.
+  \item pas d'obligation de redistribuer le code
+  \item obligation de redistribuer le code sous les mêmes termes : empêcher de tirer bénéfice du logiciel sans reverser en retour sa propre oeuvre dérivée.
   \end{itemize}
 
   \begin{alertblock}{Définition : logiciel libre}
-    Logiciel sous licence libree, c'est-à-dire offrant les quatre libertés des licences libres.    
+    Logiciel sous licence libre, c'est-à-dire offrant les quatre libertés des licences libres.    
   \end{alertblock}
   
 \end{frame}
@@ -329,7 +330,7 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
 \textbf{Redistribuer déclenche la licence}
  \end{alertblock}
  
- Exception : AGPL où c'est l'utilisation du service qui déclenche.
+ Exception : AGPL où c'est l'utilisation du service qui déclenche (voir section 13)
 \end{frame}
 
 \section{TP1}
@@ -671,20 +672,18 @@ Essentiellement trois solutions...
 % FOSSology
 %%%%%%%%%%%%
 
+
 \begin{frame}{FOSSology}
 \begin{block}{FOSSology}
-
 \textit{License compliance software system and toolkit.}
 \end{block}
-
 \begin{itemize}
 \item \textit{As a toolkit you can run license, copyright and export control scans from the command line.}
-
 \item textit{As a system, a database and web ui are provided to give you a compliance workflow. License, copyright and export scanners are tools available to help with your compliance activities.}
 \end{itemize}
-
 \url{https://github.com/fossology/fossology}
 \end{frame}
+
 
 \setbeamertemplate{background canvas}{\centering\includegraphics
    [height=\paperheight]{images/fossology-linux-kernel.png}}
@@ -693,6 +692,7 @@ Essentiellement trois solutions...
 \note{RMS}
 \end{frame}
 \setbeamertemplate{background canvas}{}
+
 
 %%%%%%%%%%%
 % Scancode toolkit
@@ -727,7 +727,7 @@ Préliminaire : avoir des juristes compétents sur ces thèmes.
 
   \begin{block}{Problèmes}
     \begin{itemize}
-    \item 70\% des contributions à Linux proviennent de quelques entreprises. 
+    \item 70\% des contributions à Linux proviennent de quelques entreprises. Lesquelles ?
     \item Wikipédia dépend fortement de Google.
     \item ....
     \item Gouvernance communautaire ? 
