@@ -21,6 +21,7 @@
 
 * Est-ce que les licences libres sont valides juridiquement en France ? Pourquoi ? Donnez des exemples. Et au niveau Européen ?
 
+
 ## Paquet 3
 
 * Expliquez l’art 8 de la GPLv3, ses conséquences éventuelles pour les clients et comparer avec d’autres licences libres.
@@ -29,8 +30,8 @@
 
 * Comment est gérée la "diffusivité descendante" dans le GPLv3 ?
 
-## Paquet 4
 
+## Paquet 4
 
 * Expliquez l’art 7 de la GPLv3. Pourquoi ces précisions ?
 
@@ -41,15 +42,14 @@
 
 ##  Paquet 5
 
-
 * Qu’est ce qu’un brevet en général ? Qu’est ce qu’un "brevet logiciel" ?
 
 * Comment intégrer des licences évanescentes (ou dites permissives) dans un projet sous GPL ?
 
 * Est-ce qu’un développeur peut contribuer sur son temps libre à un projet libre indépendant des projets de son entreprise ? Donnez des exemples, pourquoi ? Que devrait faire ou non son entreprise ? Proposez.
 
-## Paquet 6
 
+## Paquet 6
 
 * Dans le code source du noyau Linux, on voit parfois EXPORT_SYMBOL_GPL, que cela signifie-t-il ? Pourquoi ?
 
@@ -57,11 +57,19 @@
 
 * Expliquez l’art 13 de la GPLv3.
 
-## Paquet 7
 
+## Paquet 7
 
 * Expliquer l’article 5 de la GPLv3
 
 * Peut-on utiliser un code sous GPL avec des modules binaires privatifs ? Comment ?
 
 * Qu’est ce que la libc ? Expliquez. Quelle est sa licence ? Pourquoi n’est-elle pas GPL ?
+
+## Paquet 8
+
+* Quelle est la licence de https://mpc-hc.org/about/ ? Pouvait-on avoir une autre licence ? Lesquelle ? Pourquoi ?
+
+* ...
+
+* ...

@@ -65,3 +65,7 @@
 * Can I use a GPL code with private binary modules ? How ?
 
 * What is libc ? Explain. What is its license ?  Why it is GPLed ?
+
+## Package 8
+
+* What is the license of https://mpc-hc.org/about/ ? Could they have chosen another one ? Which ones ? Why ?
