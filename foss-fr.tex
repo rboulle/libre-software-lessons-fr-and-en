@@ -175,11 +175,10 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
 \begin{frame}{Vocabulaire}
 
   \begin{itemize}
-  \item \textbf{Logiciels privatifs} et non propriétaires (tous le sont !)
+  \item \textbf{Logiciels privatifs} aussi dits \textbf{propriétaires} mais tous le sont... ou \textbf{logiciels privateurs}.
   \item \textbf{Copyleft} : \textit{droit laissé}, obligation de garantir que les libertés offertes par la licence soient préservées lors de la redistribution.
   \item \textbf{Copyright} : pas de valeur juridique particulière en France mais permet d'identifier les auteurs...
-  \item Oeuvre : création originale, pas vraiment de sens dans le monde numérique
-  \item Originalité : expression juridique de la créativité de l'auteur, empreinte de sa personnalité. \textbf{Création intellectuelle} dans le monde numérique
+  \item Oeuvre : création originale empreinte de la personnalité de l'auteur. Plutot \textbf{création intellectuelle} dans le monde numérique (où la copie d'une oeuvre est identique à l'original)
   \end{itemize}
 \end{frame}
 
@@ -223,7 +222,7 @@ On est toujours l'idéologue de quelqu'un... Débat dépassé ?
   Principe général : réserver l'intégralité des droits au titulaire. Droits patrimoniaux organisés pour assurer un monopole d'exploitation économique.
 
   \begin{alertblock}{Définition : logiciel privatif}
-    Logiciel sous licence privative, c'est-à-dire n'offrant pas au moins une des quatre libertés des licences libres.    
+    Logiciel qui entrave au moins une des quatre libertés des licences libres.    
   \end{alertblock}
 
 \pause
@@ -252,7 +251,7 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
 \begin{frame}{logiciels libres}
 
   \begin{alertblock}{Principe général}
-    Toutes les licences entendent que le \textit{code source} reste libre.
+    Toutes les licences entendent que le \textit{code source} soit libre.
   \end{alertblock}
   Elles ne divergent principalement que sur les modalités de redistribution :
   \begin{itemize}
@@ -261,12 +260,13 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
   \end{itemize}
 
   \begin{alertblock}{Définition : logiciel libre}
-    Logiciel sous licence libre, c'est-à-dire offrant les quatre libertés des licences libres.    
+    Logiciel qui respecte la liberté des utilisateurs (avec les quatre libertés des licences libres).    
   \end{alertblock}
   
 \end{frame}
 
-
+% Not the canonical order :
+% see https://www.softwarefreedom.org/resources/2014/SFLC-Guide_to_GPL_Compliance_2d_ed.html#copyright-and-copyleft
 
 \begin{frame}{liberté 0 : liberté d'utilisation}
   \begin{itemize}
@@ -315,22 +315,25 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
   \begin{itemize}
   \item Modalités de redistribution : principale différence entre licences libres :
     \begin{itemize}
-    \item \textbf{Copyleft fort}
-    \item \textbf{Copyleft faible}
+    \item \textbf{Copyleft}
+    \begin{itemize}
+    	\item \textbf{Copyleft fort}
+  	    \item \textbf{Copyleft faible}
+  	\end{itemize}
     \item \textbf{Copyfree}
     \end{itemize}
-  \item Droit au nom : identifier les contributeurs (L.121-1 du CPI et convention de Berne)
-  \item Droit au respect de la réputation mis en oeuvre par certaines licences : identifier les contributions.
-  \end{itemize}
+
+  \item Droit au nom et respect de la réputation : identifier les contributeurs (L.121-1 du CPI et convention de Berne)
+   \end{itemize}
 \begin{alertblock}{Principe}
-    Dans l'intérêt des autres utilisateurs. Cette liberté est surtout une condition nécessaire aux 3 précédentes.
+    Dans l'intérêt des autres utilisateurs.
   \end{alertblock}
 
 \begin{alertblock}{Quand la licence se déclenchent-elles ?}
 \textbf{Redistribuer déclenche la licence}
  \end{alertblock}
  
- Exception : AGPL où dès qu'il y a interaction avec le service, les obligation de la licence se déclenchent (art. 13)
+Exception avec AGPL : les obligations de la licence se déclenchent \textbf{aussi} lorsqu'il y a interaction avec le service modifié (art. 13)
 \end{frame}
 
 \section{TP1}
@@ -339,12 +342,12 @@ Qui gouverne quel projet de logiciel libre ? Posez-vous juste la question.
   En 30 minutes et par groupe de 3 :
   \begin{itemize}
   \item ouvrir un pad collaboratif
-  \item analyser pour chacune des 4 libertés du logiciel libre leur transposition dans les logiciels privatifs
+  \item analyser comment les logiciels privatifs entravent une ou plusieurs des 4 libertés du logiciel libre.
   \item la mise en commun des travaux des groupes se fera sur un pad commun
   \end{itemize}
 
   \begin{alertblock}{Consigne générale}
-    Toujours sourcer vos informations    
+    Toujours sourcer vos informations !
   \end{alertblock}
 \end{frame}
 
@@ -381,7 +384,7 @@ Mise en commun sur :
     Licence libre \textbf{avec copyleft} imposant que toute nouvelle contribution "s'appuyant" sur du code source placé sous cette licence soit également placé sous les termes de cette licence
    \end{alertblock}
 
-On parle de \textit{\textbf{copyleft fort}}.
+On parle de \textbf{copyleft fort}.
 
 Autre termes rencontrés : "licences virales", "contaminantes" (à éviter, idéologie embarquée).
   
@@ -410,9 +413,9 @@ Stratégiquement \textbf{défensives}.
 \end{frame}
 
 
-\begin{frame}{Licence évanescente}
+\begin{frame}{Licence permissive}
   \begin{block}{Principe général}
-    Liberté totale !
+    Aucune obligation en cas de redistribution du logiciel.
   \end{block}
 
   \begin{alertblock}{Définition (Pellegrini, Canevet)}
@@ -421,9 +424,9 @@ Stratégiquement \textbf{défensives}.
 
 On parle de \textit{\textbf{copyfree}}
 
-Autre terme moins rigoureux : licences permissives 
+Autre terme : licences évanescentes.
 
-Exemples : BSD (BSD 4 clauses, BSD 3, BSD 2), MIT, Apache, CeCILL-B... 
+Exemples : BSD (BSD 4 clauses, BSD 3, BSD 2), MIT, Apache, CeCILL-B (pour BSD)... 
 
 Stratégiquement \textbf{prosélytes}.
 \end{frame}
@@ -493,9 +496,9 @@ Périmètre défini de façon abstraite et fonctionnelle en termes de modules
 \end{frame}
 
 
-\begin{frame}{Utilisation des évanescentes}
+\begin{frame}{Utilisation des permissives}
 
-  \begin{block}{But général des évanescentes}
+  \begin{block}{But général des permissives}
     Aucune obligation de distribuer le source avec le code objet.
   \end{block}
 
@@ -547,13 +550,13 @@ Votre code = du code + A + B. Pouvez-vous le distribuer ?
 \scalebox{0.7}{
   \begin{tabularx}{14cm}{|X|X|X|X|}
     \hline
-\backslashbox{Code A}{Code B}   & Diffusive & Persistante & Evanescente \\
+\backslashbox{Code A}{Code B}   & Diffusive & Persistante & Permissive \\
 \hline
 Diffusive & \textbf{Impossible} sauf si clause de compatibilité & \textbf{Impossible} sauf si clause de compatibilité & \textbf{Possible} P peut être distribué sous la licence de A\\
 \hline
 Persistante& \textbf{Impossible} sauf si clause de compatibilité & \textbf{Possible}. Distribution sans que les licences A et B ne se diffusent et à condition que chaque module soit distribué sous sa propre licence  & \textbf{Possible}. Distribution sans que la licence de A ne se diffuse à la partie hachurée et au code B et à condition que A soit distribué sous sa licence. \\
 \hline
-Evanescente & \textbf{Possible}. P peut être distribué sous la licence B  & \textbf{Possible}. P peut être distribué sans que la licence B ne se diffuse à la partie hachurée et le module A à condition que B soit distribué sous la licence B & \textbf{Possible}. Aucune diffusivité. \\
+Permissive & \textbf{Possible}. P peut être distribué sous la licence B  & \textbf{Possible}. P peut être distribué sans que la licence B ne se diffuse à la partie hachurée et le module A à condition que B soit distribué sous la licence B & \textbf{Possible}. Aucune diffusivité. \\
 \hline  
   \end{tabularx}
 }
